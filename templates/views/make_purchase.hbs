@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>options</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	{{>header}}
+	<h2>{{title}}</h2>
+	
+	<div class="container">
+		<form>
+			<div class="grid2">
+				<label>Product Name: </label>
+				<input type="text" name="">
+			</div>
+
+			<div class="grid3">
+				<label>Quantity: </label>
+				<select>
+					<option>satchet</option>
+					<option>packets</option>
+					<option>carton</option>
+				</select>
+				<input type="number" name="">
+			</div>
+
+			<div class="grid2">
+				<label>Price: </label>
+				<p>&nbsp</p>
+			</div>
+
+			<button>Purchase</button>
+		</form>
+		
+	</div>
+
+
+	{{>footer}}
+
+</body>
+</html>

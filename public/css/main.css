@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+body{
+	font-family: tahoma;
+	max-width: 650px;
+	margin:0 auto;
+	padding:0 16px;
+	color: #333333;
+
+	display:flex;
+	flex-direction: column; 
+	min-height: 100vh; 
+}
+
+.container{
+	flex-grow: 1;
+}
+
+header{
+	margin: 16px 0 48px;
+
+}
+
+h1{
+	font-size: 3em;
+}
+
+footer{
+	color:#888888;
+	border-top:1px solid #eeeeee;
+	margin-top:16px;
+	padding: 16px 0;
+}
+
+
+input{
+	border:1px solid #cccccc;
+	padding:8px;
+	margin: 5px 0;
+}
+
+button{
+	cursor:pointer;
+	border:1px solid #888888;
+	background: #888888;
+	color:#ffffff;
+	padding: 8px;
+	margin:10px 0 25px ;
+
+}
+
+.form-body{
+	//border: 1px solid black;
+	padding: 0 15%;
+}
+
+.grid1{
+	display: grid;
+
+}
+
+.grid2{
+	display:grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.grid3{
+	display:grid;
+	grid-template-columns: 1fr 1fr 2fr ;
+}
+
+label{
+	padding: 10px 0;
+}
+
+select{
+	border:1px solid #cccccc;
+	padding:8px;
+	margin: 5px 0;	
+}
